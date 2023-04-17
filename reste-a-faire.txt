@@ -1,0 +1,3 @@
+-Reussire à actualisé la page "Modifier de son profil" après mise à jour : 1h;
+-Dans citation, faire modifier et supprimer : 2h;
+-L'envoie des mail et donc du mot de passe perdu : 6h;

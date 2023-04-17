@@ -1,0 +1,16 @@
+#Identifiant à la base de données
+model/pdo.php
+
+#Gestion des mail
+email/mail.php
+
+#composer
+vendor/
+composer.json
+composer.lock
+composer.phar
+config.json
+package.json
+
+#pdo
+pdo.php

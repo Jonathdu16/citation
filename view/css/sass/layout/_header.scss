@@ -1,0 +1,32 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    &-list{
+        position: relative;
+        margin: 0;
+        min-height: 5vh;
+        background-color: $colour-secondary;
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+           color: $colour-primary; 
+        }
+    }
+    &-title{
+        margin: 0;
+        position: relative;
+        top: 0;
+        padding: 2%;
+        background-color: $colour-secondary;
+        border: 0 2px 0 2px solid $colour-primary;
+        border-radius: 0  0 50% 50%;
+    }
+}

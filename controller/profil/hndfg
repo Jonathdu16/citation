@@ -1,0 +1,19 @@
+<?php
+require ROOT . '/model/utilisateurs.model.php';
+
+
+if(isset($_GET['action'])){
+   switch($_GET['action']){
+        case 'connexion' :
+        case 'deconnexion' :
+        case 'update' :
+            $action = $_GET['action'];
+        default :
+            require_once '../view/utilisateurs/connexion.php';
+    }
+    
+}else{
+   require_once '../view/utilisateurs/connexion.php'; 
+}
+
+require __DIR__.'/'.$action.'.php';
